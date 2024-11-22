@@ -20,4 +20,4 @@ with col2:
             i,p,h = elec_para(v,r,t)
             st.write(f"load current= = {i:.2f} a")
             st.write(f"load power = {p:.2f} w")
-            st.write(f"heat energy = {h:.2f} kwhs")
+            st.write(f"heat energy = {h/1000:.2f} kwhs")
